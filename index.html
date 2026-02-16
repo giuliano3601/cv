@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - Giuliano Dall’Agata</title>
+  <style>
+    :root { --bg:#0b0c10; --card:#111218; --text:#e9e9ef; --muted:#b6b6c6; --accent:#7aa2ff; --line:#23243a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+           background:var(--bg); color:var(--text); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; }
+    header { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; flex-wrap:wrap; }
+    h1 { margin:0; font-size: 28px; letter-spacing: .2px; }
+    h2 { margin:22px 0 10px; font-size:18px; }
+    h3 { margin:16px 0 8px; font-size:15px; }
+    p { margin: 10px 0 0; color: var(--muted); line-height: 1.55; }
+    ul { margin: 8px 0 0 18px; color: var(--muted); line-height: 1.55; }
+    .topline { color: var(--muted); margin-top: 6px; }
+    .links { display:flex; gap:12px; flex-wrap:wrap; margin-top:10px; }
+    .pillrow { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    .pill { border:1px solid var(--line); background:transparent; color:var(--muted);
+            padding:6px 10px; border-radius:999px; font-size: 13px; }
+    .muted { color: var(--muted); }
+    .hr { height:1px; background: var(--line); margin: 18px 0; }
+    .back { display:inline-block; margin-bottom: 14px; }
+    .row { display:grid; grid-template-columns: 1fr; gap:14px; }
+    @media (min-width: 860px) { .row { grid-template-columns: 1.1fr .9fr; } }
+    .item-title { margin:0; color: var(--text); }
+    .item-meta { margin:6px 0 0; color: var(--muted); font-size: 13.5px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- Volver (opcional, por si también lo linkeás desde tu portfolio) -->
+    <a class="back" href="./index.html">← Volver al portfolio</a>
+
+    <div class="card">
+      <header>
+        <div>
+          <h1>Giuliano Dall’Agata</h1>
+          <div class="topline">San Miguel de Tucumán · 381 206 6982</div>
+
+          <div class="links">
+            <a href="mailto:giulianodallagat4@gmail.com">giulianodallagat4@gmail.com</a>
+            <!-- Cambiá este link por el real de tu portfolio (GitHub Pages) -->
+            <a href="./index.html">Portfolio</a>
+          </div>
+
+          <div class="pillrow">
+            <span class="pill">Operaciones y logística</span>
+            <span class="pill">Métodos y tiempos</span>
+            <span class="pill">Análisis para decidir</span>
+            <span class="pill">Indicadores</span>
+            <span class="pill">Simulación de escenarios</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="hr"></div>
+
+      <h2>Perfil profesional</h2>
+      <p>
+        Ingeniero Industrial (tesis en curso) con orientación técnica y analítica, especializado en el modelado de operaciones reales,
+        estudio de métodos y tiempos, simulación de escenarios y evaluación cuantitativa de decisiones.
+      </p>
+      <p>
+        Experiencia práctica en sistemas logísticos, integrando restricciones físicas, datos reales y análisis económico para apoyar
+        decisiones de planificación, layout, capacidad y dotación.
+      </p>
+
+      <h2>Experiencia</h2>
+
+      <div class="row">
+        <div>
+          <h3 class="item-title">Establecimiento La Mariposa S.A. — Pasantía</h3>
+          <div class="item-meta">Sept 2025 – Actualidad</div>
+          <ul>
+            <li>Estudio de métodos y tiempos del depósito de producto terminado: recepción, almacenamiento, picking y despacho.</li>
+            <li>Indicadores de ocupación del depósito y utilización de recursos para identificar saturación y cuellos de botella.</li>
+            <li>Lógica de cálculo basada en tiempos medidos e implementación en el sistema de gestión para estimar carga de trabajo y horas extra al cargar un pedido.</li>
+            <li>Simulación en SciLAB del armado de camiones a partir de pedidos históricos y tiempos definidos; generación de distribuciones de tiempos para anticipar trabajo y horas extra.</li>
+            <li>Simulación de escenarios con distintas configuraciones de layout, dotación y reglas de asignación de tareas, comparando impacto en horas extra y utilización.</li>
+            <li>Muestreo de trabajo y análisis de estados para modelar uso de equipos (sampis, zorras eléctricas): operación efectiva, disponibilidad e inactividad por carga.</li>
+            <li>Resultados usados para comparar alternativas y apoyar decisiones de inversión y cambios operativos.</li>
+            <li>Redacción de informe empresarial con propuestas de mejora traducidas a beneficios económicos.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="item-title">Municipalidad de San Miguel de Tucumán — Pasantía</h3>
+          <div class="item-meta">Dic 2024 – Jul 2025</div>
+          <ul>
+            <li>Análisis del Inventario de Gases de Efecto Invernadero para identificar sectores con mayor peso (transporte, energía y residuos).</li>
+            <li>Análisis ABC para priorizar sectores donde concentrar esfuerzos.</li>
+            <li>Evaluación de medidas técnicas de reducción de emisiones: impacto y costo a partir de datos disponibles, factores técnicos y casos reales.</li>
+            <li>Esquema de priorización considerando impacto, costo, viabilidad técnica, aceptación social y beneficios adicionales.</li>
+            <li>Planillas y gráficos comparativos para respaldar decisiones y facilitar discusión técnica.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Educación</h2>
+      <p><strong>Facultad de Ciencias Exactas y Tecnología — UNT</strong> (2021 – Actualidad)</p>
+      <p>Ingeniería Industrial: cursado finalizado</p>
+
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Estudio de métodos y tiempos</li>
+        <li>Diseño y análisis de layout</li>
+        <li>Modelado y simulación de operaciones</li>
+        <li>Análisis de escenarios y capacidad</li>
+        <li>Evaluación técnico-económica</li>
+        <li>Desarrollo de indicadores y métricas</li>
+        <li>Excel avanzado (modelos, Solver, análisis de datos)</li>
+        <li>Programación básica (C, Python)</li>
+        <li>Uso de IA para analizar información, ordenar problemas complejos y explorar alternativas</li>
+        <li>CAD para layouts simples</li>
+        <li>Relevamiento y modelado de procesos sin datos previos</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+      <ul>
+        <li>Español nativo</li>
+        <li>Inglés avanzado</li>
+        <li>Alemán básico (en formación)</li>
+      </ul>
+
+      <h2>Actividades y participaciones</h2>
+      <ul>
+        <li><strong>Rally Latinoamericano de Innovación 2023</strong> — Desarrollo en equipo de solución para problemática de Agua Segura en 12 hs.</li>
+        <li><strong>Exactas para Todos 2023</strong> — Participación como expositor en el stand de Ingeniería Industrial.</li>
+      </ul>
+
+      <!-- Si querés, acá podés linkear a certificaciones en assets o a una sección futura -->
+      <!-- <div class="links"><a href="./assets/certificaciones.pdf">Ver certificaciones</a></div> -->
+
+    </div>
+  </div>
+</body>
+</html>
